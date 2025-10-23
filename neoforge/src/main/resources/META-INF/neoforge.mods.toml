@@ -34,5 +34,12 @@ versionRange = "[13.0.8,)"
 ordering = "AFTER"
 side = "BOTH"
 
+[[dependencies.sdm_orestages]]
+modId = "sdmstages"
+type = "required"
+versionRange = "[0.2.0,)"
+ordering = "AFTER"
+side = "SERVER"
+
 [[mixins]]
 config = "sdm_orestages.mixins.json"
