@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "dev.behindthescenery.sdm_ore_stages.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "ChunkMapMixin",
+    "ClientboundBlockUpdatePacketMixin",
+    "MixinHashMapPalette",
+    "MixinLinearPalette",
+    "MixinSingleValuePalette",
+    "PlayerChunkSenderMixin",
+    "ReloadableServerResourcesMixin",
+    "ServerCommonPacketListenerImplMixin",
+    "ServerPlayerGameModeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
